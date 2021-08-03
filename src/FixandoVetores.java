@@ -14,6 +14,7 @@ public class FixandoVetores {
 			
 		}
 		
+		
 		for(int i=0;i<numeros.length;i++) {
 			
 		System.out.println("A nota do " + (i+1) + " aluno é: " + numeros[i]);
@@ -23,7 +24,7 @@ public class FixandoVetores {
 		
 		System.out.println("O número total de notas é: " + total);
 		leitor.close();
-
+		
 	}
 
 }
